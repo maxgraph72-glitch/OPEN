@@ -83,8 +83,8 @@ margin-top:200px;
 
 .photo img{
     background-color: black;
-    width: 700px;
-    height: 800px;
+    width: 300px;
+    height: 500px;
     position: fixed;    
     right: 50%;
     transform:translateX(50%);
