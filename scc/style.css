@@ -39,16 +39,29 @@ margin-top:200px;
 }
 
 .butt{
-    background-image: url(images/blockkid.jpg);
+    background-image: url(images/dis.jpg);
     position:relative;
     z-index: 1000;
     align-content: center;
     display: inline-block;
-    padding: 100px 100px;
+    padding: 300px 300px;
     /* background-color: #222; */
     /* color: white; */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+
+.butt:hover {
+    background-image: url(images/act.jpg);
+    position:relative;
+    z-index: 1000;
+    align-content: center;
+    display: inline-block;
+    padding: 300px 300px;    
+    text-decoration: none;
+    border-radius: 10px;
     transition: background 0.3s;
 }
 
@@ -82,10 +95,25 @@ margin-top:200px;
 }
 
 .photo img{
-    background-color: black;
+    background-color: gray;
     width: 300px;
     height: 500px;
     position: fixed;    
     right: 50%;
     transform:translateX(50%);
 }
+
+section {
+    position: fixed;
+    right: 50%;
+    transform:translateX(50%);
+}
+
+section p {
+    align-content: baseline;
+    color: azure;
+    right: 30%;
+    transform:translateX(35%);
+    
+}
+
